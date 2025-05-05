@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tagesschrift&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.slider{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 250%;
+}
+
+.slides img{
+    width: 100%;
+    flex: 1 0 100%;
+    object-fit: cover;
+}
+button.precedent,button.suivant{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%0);
+    background-color: rgba(0 , 0 , 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+}
+button.precedent{
+    left: 10px;
+}
+button.suivant{
+    right: 10px;
+}
+.indicators{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+.indicators div{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.indicators .active{
+    background: rgb(20, 23, 192);
+}
