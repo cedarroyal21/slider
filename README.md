@@ -37,7 +37,7 @@ slider/
 
 1. **Clonez le dépôt** :
 bash
-git clone https://github.com/cedarroyal/slider.git
+git clone https://github.com/cedarroyal21/slider.git
 Ouvrir le fichier index.html dans un navigateur.
 
 ##appercu du projet
