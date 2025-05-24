@@ -3,7 +3,7 @@
 
 Ce projet est un **slider d'images dynamique** développé avec les technologies web de base : **HTML, CSS et JavaScript**. Il permet d'afficher plusieurs images ou contenus de manière fluide avec une navigation par boutons.
 
----
+
 
 ## 🚀 Fonctionnalités
 
@@ -13,7 +13,6 @@ Ce projet est un **slider d'images dynamique** développé avec les technologies
 - Animation fluide des transitions
 - Responsive design (s’adapte aux écrans)
 
----
 
 ## 🛠️ Technologies utilisées
 
@@ -21,7 +20,7 @@ Ce projet est un **slider d'images dynamique** développé avec les technologies
 - **CSS3** – mise en forme et animations
 - **JavaScript (ES6)** – logique du slider (navigation, gestion des événements)
 
----
+
 
 ## 📁 Arborescence du projet
 
@@ -31,17 +30,14 @@ slider/
 ├── style.css # Fichier de styles
 └── script.js # Code JavaScript du slider
 
-yaml
-Copier
-Modifier
 
----
 
-## ✅ Lancer le projet
 
-1. **Cloner le dépôt** :
+## ✅  comment Lancer le projet ?
+
+1. **Clonez le dépôt** :
 bash
-git clone https://github.com/ton-utilisateur/ton-depot.git
+git clone https://github.com/cedarroyal/slider.git
 Ouvrir le fichier index.html dans un navigateur.
 
 ##appercu du projet
