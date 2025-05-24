@@ -83,16 +83,6 @@ button.suivant{
 .indicators .active{
     background: rgb(20, 23, 192);
 }
-.info1 {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: rgba(8, 122, 175, 0.5); /* fond semi-transparent */
-    color: white;
-    padding: 10px 5px;
-    font-size: 1.5em;
-    border-radius: 25px;
-  }
   button{
     margin: 23px;
     padding: 10px 20px;
@@ -113,20 +103,7 @@ button.suivant{
     height: 5px;
     background-color: rgba(82, 2, 2, 0.5);
   }
-  .info2 {
-    position: absolute;
-    bottom: 20px;
-    right: 100px;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 30px 10px;
-    font-size: 1.5em;
-    border-radius: 25px;
-    backdrop-filter: blur(5px);
-    margin: 290px;
-    margin-right: 100px;
-    
-  }
+  
   img{
     position: center ;
   }
