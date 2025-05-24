@@ -3,7 +3,7 @@ const slides = document.querySelector(".slides");
 const images = document.querySelectorAll(".slides img");
 const indicators = document.querySelector(".indicators");
 
-// Créer les points dynamiquement
+// Créer les points de facon dynamique
 images.forEach((_, i) => {
   const dot = document.createElement("div");
   dot.addEventListener("click", () => showSlide(i));

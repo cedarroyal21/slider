@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&family=Jaro:opsz@6..72&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tagesschrift&display=swap');
 * { 
     margin: 0;
     padding: 0;
@@ -7,6 +7,10 @@
 }
 html,body{
     height: 100%;
+    background-image: url(images/secu1.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(107px);
 }
 .header{
     display: flex;
@@ -21,29 +25,31 @@ html,body{
 
 .slider{
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100vh;
+    height: 560px;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
+    margin: 20px;
+    border: none;
 }
 .slides{
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 250%;
+    
 }
 
 .slides img{
     width: 100%;
     flex: 1 0 100%;
     object-fit: cover;
+    
 }
 button.precedent,button.suivant{
     position: absolute;
     top: 50%;
     transform: translateY(-50%0);
-    background-color: rgba(0 , 0 , 0, 0.5);
     color: white;
     border: none;
     padding: 10px;
@@ -76,4 +82,126 @@ button.suivant{
 
 .indicators .active{
     background: rgb(20, 23, 192);
+}
+.info1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(8, 122, 175, 0.5); /* fond semi-transparent */
+    color: white;
+    padding: 10px 5px;
+    font-size: 1.5em;
+    border-radius: 25px;
+  }
+  button{
+    margin: 23px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(10, 84, 196);
+  }
+  h1{
+    color:rgb(5, 121, 1);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+  }
+  .info2 {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px 10px;
+    font-size: 1.5em;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    margin: 290px;
+    margin-right: 100px;
+    
+  }
+  img{
+    position: center ;
+  }
+  a{
+    margin: 5px;
+    color: white;
+  }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: #040308;
+  height: 70px;
+}
+
+nav img.logo {
+  height: 70px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+.slider {
+  position: relative;
+  max-width: 900px;
+  margin: 50px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.slider .arrow:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
+.slider .arrow.left {
+  left: 10px;
+}
+
+.slider .arrow.right {
+  right: 10px;
+}
+.inf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
