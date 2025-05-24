@@ -45,4 +45,4 @@ git clone https://github.com/ton-utilisateur/ton-depot.git
 Ouvrir le fichier index.html dans un navigateur.
 
 ##appercu du projet
-<img src="capture.png">
+<img src="images/capture.png">
